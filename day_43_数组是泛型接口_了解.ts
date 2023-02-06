@@ -2,7 +2,7 @@
  * 《数组是泛型接口》
  */
 
-const strs = [ 'a', 'b', 'c' ];
+const strs = [ 'a', 1, 'c' ];
 strs.forEach((item) => {}); //Array<string>.forEach(callbackfn: (value: string, index: number, array: string[]) => void, thisArg?: any): void
 
 const nums = [ 1, 3, 5 ];
