@@ -1,3 +1,7 @@
+/*
+ * @Author: XiaoYu
+ * @Date: 2022-07-25 09:42:19
+ */
 /**
  * 《交叉类型》
  * 交叉类型(&) 功能类似于接口继承（extends），用于组合多个类型为一个类型（常用于对象类型）
@@ -14,7 +18,7 @@ interface Contact {
     phone:string
 }
 
-type PersonDetail = Person & Contact
+type PersonDetail = Person & Contact   //  Person || Contact
 let obj: PersonDetail = {
     name:'jack',
     phone:'133...',
